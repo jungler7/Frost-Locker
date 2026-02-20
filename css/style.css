@@ -955,4 +955,69 @@ nav a:hover,
   font-size: 14px;
   color: #334155;
   line-height: 1.6;
+
+}
+
+/* MOBILE SCREENS */
+
+@media (max-width: 768px) {
+
+  /* Top Bar */
+  .top-bar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* Header */
+  .header-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 60px 15px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  /* Features Stack */
+  .features-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-card {
+    width: 100%;
+  }
+
+  /* Demo Form */
+  .demo-form {
+    width: 100%;
+  }
+
+  .demo-form input,
+  .demo-form select,
+  .demo-form button {
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logos {
+    flex-direction: column;
+    gap: 15px;
+  }
 }
