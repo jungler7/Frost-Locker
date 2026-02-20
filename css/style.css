@@ -1021,3 +1021,99 @@ nav a:hover,
     gap: 15px;
   }
 }
+
+/* ================= MOBILE FIX ================= */
+
+@media (max-width: 768px) {
+
+  /* General */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* ===== HERO SECTION 1 ===== */
+  .hero {
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .hero-content {
+    padding: 0;
+    margin: 20px 0;
+  }
+
+  .brands {
+    padding: 0;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  /* ===== DEMO CARD ===== */
+  .demo-card {
+    width: 100%;
+  }
+
+  .phone-group {
+    flex-direction: column;
+  }
+
+  .phone-group select,
+  .phone-group input {
+    width: 100%;
+  }
+
+  /* ===== SECTION 2 HERO ===== */
+  .hero-section .container {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .left-side {
+    display: none;
+  }
+
+  .v-slider {
+    display: none;
+  }
+
+  .hero-section .headline {
+    font-size: 26px;
+  }
+
+  /* ===== INDUSTRIES SECTION ===== */
+  .industries-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* ===== PRODUCT SECTION ===== */
+  .product-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .product-container {
+    padding: 0 20px;
+  }
+
+  /* ===== SEO SECTION ===== */
+  .seo-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .service-cards {
+    flex-direction: column;
+  }
+
+  .service-card {
+    min-width: 100%;
+  }
+
+}
